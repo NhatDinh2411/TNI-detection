@@ -1,0 +1,7 @@
+fastapi==0.115.12
+ultralytics==8.3.146
+SQLAlchemy==2.0.41
+uvicorn
+psycopg2-binary
+python-dotenv
+python-multipart
