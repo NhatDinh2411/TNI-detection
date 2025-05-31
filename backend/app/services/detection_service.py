@@ -4,7 +4,7 @@ import os
 class DetectionService():
 
     def __init__(self) -> None:
-        self.model = YOLO("./static/ckpt/yolo11n.pt")
+        self.model = YOLO("yolo11n.pt")
 
     async def detect_people(self, image_path:str):
         result = self.model(image_path, classes=0)
